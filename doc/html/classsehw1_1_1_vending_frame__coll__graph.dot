@@ -1,0 +1,20 @@
+digraph "sehw1.VendingFrame"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{sehw1.VendingFrame\n||+ VendingFrame()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{JFrame\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" ~machine" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{sehw1.machine\n|~ inputMoney\l|+ InputThousandwon()\l+ InputFivehundredwon()\l+ InputOnehundredwon()\l+ InputTenwon()\l+ ReturnMoney()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsehw1_1_1machine.html"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" ~p" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{sehw1.product\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsehw1_1_1product.html"];
+  Node5 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +be1\n+be2\n+be3\n+be4\n+be5" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{sehw1.beverage\n|~ count\l~ price\l~ name\l|+ beverage()\l+ ReduceBeverage()\l+ getCount()\l+ ResetBeverage()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsehw1_1_1beverage.html"];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" ~m" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{sehw1.money\n|~ resetmoney\l~ thousand\l~ fivehundred\l~ onehundred\l~ ten\l|+ ResetThousand()\l+ ResetFivehundred()\l+ ResetOnehundred()\l+ ResetTen()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsehw1_1_1money.html"];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" ~Image" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{BufferedImage\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" ~lblNewLabel_1" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{JLabel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

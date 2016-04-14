@@ -1,0 +1,115 @@
+\hypertarget{classsehw1_1_1beverage}{}\section{sehw1.\+beverage 클래스 참조}
+\label{classsehw1_1_1beverage}\index{sehw1.\+beverage@{sehw1.\+beverage}}
+
+
+sehw1.\+beverage에 대한 협력 다이어그램\+:
+% FIG 0
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsehw1_1_1beverage_a29788cfad7268c93eeaa65b19b14af6f}{beverage} (int count, int price, String name)
+\item 
+void \hyperlink{classsehw1_1_1beverage_ad2c40378698fb6c31c8f02bddb2a4e29}{Reduce\+Beverage} ()
+\item 
+int \hyperlink{classsehw1_1_1beverage_a2c952b40bddcd20a2d128cd4bf9e3d68}{get\+Count} ()
+\item 
+void \hyperlink{classsehw1_1_1beverage_a6082e0786cc6b8d805856372e768575e}{Reset\+Beverage} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+
+
+beverage.\+java 파일의 3 번째 라인에서 정의되었습니다.
+
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\index{sehw1\+::beverage@{sehw1\+::beverage}!beverage@{beverage}}
+\index{beverage@{beverage}!sehw1\+::beverage@{sehw1\+::beverage}}
+\subsubsection[{\texorpdfstring{beverage(int count, int price, String name)}{beverage(int count, int price, String name)}}]{\setlength{\rightskip}{0pt plus 5cm}sehw1.\+beverage.\+beverage (
+\begin{DoxyParamCaption}
+\item[{int}]{count, }
+\item[{int}]{price, }
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}\hypertarget{classsehw1_1_1beverage_a29788cfad7268c93eeaa65b19b14af6f}{}\label{classsehw1_1_1beverage_a29788cfad7268c93eeaa65b19b14af6f}
+
+
+beverage.\+java 파일의 10 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+10                                                       \{
+11         this.count = count;
+12         this.price = price;
+13         this.name = name;
+14     \}
+\end{DoxyCode}
+
+
+\subsection{멤버 함수 문서화}
+\index{sehw1\+::beverage@{sehw1\+::beverage}!get\+Count@{get\+Count}}
+\index{get\+Count@{get\+Count}!sehw1\+::beverage@{sehw1\+::beverage}}
+\subsubsection[{\texorpdfstring{get\+Count()}{getCount()}}]{\setlength{\rightskip}{0pt plus 5cm}int sehw1.\+beverage.\+get\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classsehw1_1_1beverage_a2c952b40bddcd20a2d128cd4bf9e3d68}{}\label{classsehw1_1_1beverage_a2c952b40bddcd20a2d128cd4bf9e3d68}
+
+
+beverage.\+java 파일의 20 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+20                          \{
+21         \textcolor{keywordflow}{return} count;
+22     \}
+\end{DoxyCode}
+\index{sehw1\+::beverage@{sehw1\+::beverage}!Reduce\+Beverage@{Reduce\+Beverage}}
+\index{Reduce\+Beverage@{Reduce\+Beverage}!sehw1\+::beverage@{sehw1\+::beverage}}
+\subsubsection[{\texorpdfstring{Reduce\+Beverage()}{ReduceBeverage()}}]{\setlength{\rightskip}{0pt plus 5cm}void sehw1.\+beverage.\+Reduce\+Beverage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classsehw1_1_1beverage_ad2c40378698fb6c31c8f02bddb2a4e29}{}\label{classsehw1_1_1beverage_ad2c40378698fb6c31c8f02bddb2a4e29}
+
+
+beverage.\+java 파일의 16 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  sehw1.\+Vending\+Frame.\+Vending\+Frame().
+
+
+\begin{DoxyCode}
+16                                 \{
+17         count--;
+18     \}
+\end{DoxyCode}
+\index{sehw1\+::beverage@{sehw1\+::beverage}!Reset\+Beverage@{Reset\+Beverage}}
+\index{Reset\+Beverage@{Reset\+Beverage}!sehw1\+::beverage@{sehw1\+::beverage}}
+\subsubsection[{\texorpdfstring{Reset\+Beverage()}{ResetBeverage()}}]{\setlength{\rightskip}{0pt plus 5cm}void sehw1.\+beverage.\+Reset\+Beverage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classsehw1_1_1beverage_a6082e0786cc6b8d805856372e768575e}{}\label{classsehw1_1_1beverage_a6082e0786cc6b8d805856372e768575e}
+
+
+beverage.\+java 파일의 24 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  sehw1.\+Vending\+Frame.\+Vending\+Frame().
+
+
+\begin{DoxyCode}
+24                                \{
+25         count = 30;
+26     \}
+\end{DoxyCode}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/user/workspace/sehw1/src/sehw1/\hyperlink{beverage_8java}{beverage.\+java}\end{DoxyCompactItemize}
